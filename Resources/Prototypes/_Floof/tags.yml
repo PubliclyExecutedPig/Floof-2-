@@ -8,7 +8,4 @@
   id: EnergySabre
 
 - type: Tag
-  id: NoPaint
-
-- type: Tag
   id: ShirtlessClothing
