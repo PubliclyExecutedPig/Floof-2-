@@ -479,7 +479,8 @@ public enum InGameICChatType : byte
     Speak,
     Emote,
     Whisper,
-    Telepathic // DeltaV - Psionic Chat
+    Telepathic, // DeltaV - Psionic Chat
+    Subtle, // Floofstation
 }
 
 /// <summary>
@@ -488,5 +489,6 @@ public enum InGameICChatType : byte
 public enum InGameOOCChatType : byte
 {
     Looc,
-    Dead
+    Dead,
+    SubtleLOOC, // Floofstation - unlike pre-rebase, this is an OOC channel
 }
