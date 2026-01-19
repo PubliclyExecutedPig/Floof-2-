@@ -130,3 +130,9 @@ Entries:
         objectives
   id: 16
   time: '2026-01-17T00:55:30.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Ported N14 furniture for mapping
+  id: 17
+  time: '2026-01-19T00:27:28.0000000+00:00'
