@@ -164,3 +164,9 @@ Entries:
       message: redcued newton_cradle.ogg by -20db
   id: 21
   time: '2026-01-20T11:37:26.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Ported the weather system for our plant maps
+  id: 22
+  time: '2026-01-21T03:53:39.0000000+00:00'
