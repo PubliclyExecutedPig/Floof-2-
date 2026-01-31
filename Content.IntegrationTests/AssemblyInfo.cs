@@ -6,4 +6,4 @@
 // So we can't really parallelize integration tests harder either until the runtime fixes that,
 // *or* we fix serv3 to not spam expression trees.
 // Floofstation - further lower the degree of parallelism because SS14 is just so memory-hungry.
-[assembly: LevelOfParallelism(1)]
+[assembly: LevelOfParallelism(2)]
