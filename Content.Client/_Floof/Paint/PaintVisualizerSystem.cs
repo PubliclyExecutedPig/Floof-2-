@@ -39,6 +39,7 @@ public sealed class ColorPaintedVisualizerSystem : VisualizerSystem<ColorPainted
             if (layer.Shader == null || layer.Shader == shader)
             {
                 layer.Shader = shader;
+                layer.ShaderPrototype = component.ShaderName;
                 layer.Color = component.Color;
             }
         }
@@ -48,7 +49,6 @@ public sealed class ColorPaintedVisualizerSystem : VisualizerSystem<ColorPainted
     {
         if (!TryComp(uid, out SpriteComponent? sprite))
             return;
-        component.BeforeColor = sprite.Color;
 
         if (Terminating(uid))
             return;
@@ -59,9 +59,11 @@ public sealed class ColorPaintedVisualizerSystem : VisualizerSystem<ColorPainted
                 continue;
 
             if (layer.ShaderPrototype == component.ShaderName)
+            {
                 layer.Shader = null;
-            if (layer.Color == component.Color)
+                layer.ShaderPrototype = null;
                 layer.Color = component.BeforeColor;
+            }
         }
     }
 
