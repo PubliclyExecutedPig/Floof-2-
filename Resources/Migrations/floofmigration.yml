@@ -77,24 +77,12 @@ CargoTechFabCircuitboard: null
 CigarBluespace: CigarGold
 CigarBluespaceSpent: null
 
-#clothing
+#clothing # can probably delete chef hats as i dont think anyone has used them
 ClothingHeadHatChefIdris: null
 ClothingHeadHatChefNt: null
 ClothingHeadHatChefOrion: null
 ClothingUniformJumpsuitChefOrion: null
 ClothingOuterJacketChefOrion: null
-ClothingUniformFlamenco: null
-ClothingUniformClassicalMaidDress: null
-ClothingClothWrap: null
-ClothingHeadHatSodaJerk: null
-ClothingNeckBlackBoetie: null
-ClothingNeckRedBoetie: null
-ClothingUniformStripedThongPurple: null
-ClothingUniformStripedThongRainbow: null
-ClothingUniformStripedThongWhite: null
-ClothingUniformThongPlain: null
-ClothingUnderSocksCoderValid: null
-ClothingUniformLoinClothWhite: null
 
 #lewd stuff
 CrateLewd: null
