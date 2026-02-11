@@ -400,3 +400,11 @@ Entries:
       message: Ported Inventory Specialist
   id: 48
   time: '2026-02-11T07:32:42.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Fixed a command permission bug that prevented admins from executing any
+        toolshed commands. Apparently this is a 2 year old bug from wizden.
+  id: 49
+  time: '2026-02-11T07:58:36.0000000+00:00'
