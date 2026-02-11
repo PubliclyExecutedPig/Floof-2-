@@ -378,3 +378,17 @@ Entries:
       message: Add back all the admin spawnable shuttles and stations for events
   id: 46
   time: '2026-02-10T08:36:38.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Add
+      message: Added new sprites and muzzleflash effect for the cobra pistol
+    - type: Add
+      message: >-
+        Added .25 caseless subsonic as ammo packet, pistol magazine and uplink
+        purchase option
+    - type: Add
+      message: Added .60 cal and .25 caseless subsonic to emagged lathe recipes
+    - type: Tweak
+      message: Changed Hristov sound
+  id: 47
+  time: '2026-02-11T05:25:30.0000000+00:00'
