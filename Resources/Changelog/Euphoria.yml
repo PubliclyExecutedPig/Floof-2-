@@ -434,3 +434,13 @@ Entries:
         pathfinder.
   id: 52
   time: '2026-02-12T07:34:17.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Add some floof clothing back to departmental drobes
+    - type: Add
+      message: Add some floof clothing back to the pride drobe
+    - type: Add
+      message: Add vapes to the shady cidgs vendor & entity spawn panel
+  id: 53
+  time: '2026-02-12T07:35:15.0000000+00:00'
