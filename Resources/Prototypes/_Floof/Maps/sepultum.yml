@@ -1,7 +1,7 @@
 - type: gameMap
   id: Sepultum
   mapName: 'Sepultum Station'
-  mapPath: /Maps/SepultumDV.yml
+  mapPath: /Maps/Floof/Sepultum.yml
   minPlayers: 35
   stations:
     Sepultum:
