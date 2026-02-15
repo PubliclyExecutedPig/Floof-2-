@@ -1,0 +1,76 @@
+- type: gameMap
+  id: Sepultum
+  mapName: 'Sepultum Station'
+  mapPath: /Maps/SepultumDV.yml
+  minPlayers: 35
+  stations:
+    Sepultum:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Sepultum Station {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'MD'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_delta.yml
+        - type: StationJobs
+          availableJobs:
+            #service
+            Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            Bartender: [ 2, 3 ]
+            Botanist: [ 3, 3 ]
+            Chef: [ 2, 2 ]
+            Janitor: [ 2, 3 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
+            ServiceWorker: [ 4, 5 ]
+            Reporter: [ 2, 2 ]
+            #engineering
+            ChiefEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 3, 3 ]
+            StationEngineer: [ 6, 8 ]
+            TechnicalAssistant: [ 4, 4 ]
+            #medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            Chemist: [ 2, 3 ]
+            MedicalDoctor: [ 6, 8 ]
+            Paramedic: [ 2, 2 ]
+            MedicalIntern: [ 4, 4 ]
+            Surgeon: [ 1, 2 ]
+            Psychologist: [ 1, 1 ]
+            #science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 5, 6 ]
+            ResearchAssistant: [ 3, 3 ]
+            Roboticist: [ 2, 2 ]
+            ForensicMantis: [ 1, 1 ]
+            #security
+            HeadOfSecurity: [ 1, 1 ]
+            Warden: [ 1, 1 ]
+            SecurityOfficer: [ 8, 10 ]
+            Detective: [ 1, 1 ]
+            SecurityCadet: [ 4, 4 ]
+            Brigmedic: [ 1, 1 ]
+            Prisoner: [ 2, 3 ]
+            PrisonGuard: [ 2 , 2 ]
+            #supply
+            CargoAssistant: [ 2, 4]
+            Quartermaster: [ 1, 1 ]
+            SalvageSpecialist: [ 4, 4 ]
+            CargoTechnician: [ 6, 8 ]
+            Courier: [ 2, 2 ]
+            #civilian
+            Passenger: [ -1, -1 ]
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 4, 4 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 3, 5 ]
+          #Justice
+            ChiefJustice: [ 1, 1 ]
+            Prosecutor: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
