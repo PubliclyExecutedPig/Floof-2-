@@ -516,3 +516,15 @@ Entries:
         mindswaps
   id: 64
   time: '2026-02-20T07:25:08.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: >-
+        whoops forgot vending machine fills almost left the station without cum
+        bottles
+    - type: Tweak
+      message: increased default stock of soda machines
+    - type: Add
+      message: VB longggg neck
+  id: 65
+  time: '2026-02-20T22:23:34.0000000+00:00'
