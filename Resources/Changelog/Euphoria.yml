@@ -490,3 +490,9 @@ Entries:
         These things are replaced by interaction verbs.
   id: 60
   time: '2026-02-19T07:24:24.0000000+00:00'
+- author: jack-thedragon95
+  changes:
+    - type: Add
+      message: VOX MASKS RETURN GLORY TO THE SHOAL
+  id: 61
+  time: '2026-02-20T07:21:01.0000000+00:00'
