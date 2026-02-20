@@ -496,3 +496,9 @@ Entries:
       message: VOX MASKS RETURN GLORY TO THE SHOAL
   id: 61
   time: '2026-02-20T07:21:01.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: Ported clothing equip delays.
+  id: 62
+  time: '2026-02-20T07:22:47.0000000+00:00'
