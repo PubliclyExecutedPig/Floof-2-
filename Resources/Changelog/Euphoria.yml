@@ -542,3 +542,9 @@ Entries:
       message: 'Added: Jermov Lawset for Station AI'
   id: 67
   time: '2026-02-21T04:09:57.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Remove
+      message: Borers from spawning until consent can be worked out
+  id: 68
+  time: '2026-02-21T06:24:37.0000000+00:00'
