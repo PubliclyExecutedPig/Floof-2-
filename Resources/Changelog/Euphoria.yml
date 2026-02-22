@@ -566,3 +566,9 @@ Entries:
       message: Tweaked loadouts to add jumpsuits, shoes etc. to each job.
   id: 71
   time: '2026-02-22T07:13:46.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Add
+      message: Some familiar lobby screens!
+  id: 72
+  time: '2026-02-22T09:50:54.0000000+00:00'
